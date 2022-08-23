@@ -1,0 +1,37 @@
+body {
+  background-image: url(/src/pattern-background-desktop.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+
+}
+
+.container {
+  border-radius: 20;
+}
+
+.ck {
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  border: 0;
+  width: 60%;
+  border-radius: 5px;
+
+
+}
+
+.music {
+  background-color: hsl(225, 100%, 94%);
+  width: 80%;
+  display: flex;
+  border-radius: 5%;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-evenly;
+  align-items: stretch;
+
+}
+
+.music a {
+  color: hsl(245, 75%, 52%);
+}
